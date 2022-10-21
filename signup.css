@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('coup.jpg');
+    background-size: cover;
+
+    width: 100%;
+}
+form{
+    margin-top: 50px;
+    text-align:center;
+}
+
+input{
+   display: block;
+   width: 350px;
+   height: 40px;
+   margin: 20px;
+   border: none;
+   outline: none;
+   font-size: 20px;
+   border-bottom: 1px solid white;
+   background: transparent;
+   color: white;
+}
+button{
+   width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #F5CBA7;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    border-radius: 7px 7px 7px 7px;
+	box-shadow:  1px 2px 4px  rgba(0,0,0,.3);
+}
+
+form h1 {
+	margin-bottom: 30px;
+	color: white;
+}
+
+::placeholder {
+	color: white;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */          /*pinaka back na page color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */     /* kasama ito sa taas */
+  padding-top: 60px;
+  
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+body {
+    animation: transitionIn 0.70s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg):
+    to {
+        opacity: 1;
+        transform: rotateX(0);}

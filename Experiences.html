@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>┃ Experiences ┃ Love@Website</title>
+</head>
+<link rel="stylesheet" type="text/css" href="Exp.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "icon" href ="love.png"
+        type = "image/x-icon">
+<body >
+<header style="background-color:  #FFCCCB">
+<a href="index.html"><img src="Love.png" width="340px" height="120px" style="position: relative; left: -10px"></a>
+</header>
+
+<div class="nav">
+  <div class="login">
+   
+  <a href="FAQ.html">FAQ's</a>
+  <a href="CONTACT US.html">CONTACT US </a>
+  <a href="ABOUT WEBSITE.html">ABOUT WEBSITE </a>
+  <a href="index.html">HOME</a>
+</div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="index.html" id="home">Home</a>
+  <a href="ABOUT WEBSITE.html" id="about">About Us</a>
+  <a href="CONTACT US.html" id="contact">Contact Us</a>
+  <a href="FAQ.html" id="faq">FAQ's</a>
+</div>
+
+<i class=" fa fa-user icon" id="fa-user"></i>
+<div class="comment"> 
+<form action="Experiences.cfm" method="post">
+
+<input type="textarea" id="input" placeholder="Write your experience...
+" value="" style="width:96%;height:100px;padding:2%;font:1.4em/1.6em cursive;background-color:#FFCCCB;color:hotpink;"><br>
+
+<input type="botton" value="Share" size="2" class="share-btn" onclick="share()">
+<script>
+  function share() {
+
+          if (window.confirm('Successfully Shared'))
+          {alert('Thankyou !');
+            window.location.reload();
+}
+}
+    
+</script>
+</form>
+</div>
+</body>
+</html>
+

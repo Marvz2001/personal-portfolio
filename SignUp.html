@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel = "icon" href ="love.png"
+        type = "image/x-icon">
+<link rel="stylesheet" type="text/css" href="signup.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+<form>
+    <h1>Sign Up</h1>
+    <input id="inpt" type="text" name="" placeholder="Username">
+    <input  type="text" name="" list="gender" placeholder="Gender">
+    <datalist  id="gender">
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other's</option>
+    </datalist>
+    <input id="inpt1" type="Email" name="" placeholder="Email">
+    <input id="psw" type="password" name="" placeholder="Password">
+    <input id="psw1" type="password" name="" placeholder="Confirm Password">
+    <button  type="submit">Sign Up</button>
+    <a class="close" title="Close" href="index.html">&times; </a>
+    <script>
+
+$(document).ready(function(){
+  $("#inpt").focus(function(){
+    $(this).css("background-color", "#F5B7B1");
+  });
+  $("#inpt").blur(function(){
+    $(this).css("background-color", "transparent");
+  });
+});
+
+$(document).ready(function(){
+  $("#inpt1").focus(function(){
+    $(this).css("background-color", "#F5B7B1");
+  });
+  $("#inpt1").blur(function(){
+    $(this).css("background-color", "transparent");
+  });
+});
+$(document).ready(function(){
+  $("#psw").focus(function(){
+    $(this).css("background-color", "#F5B7B1");
+  });
+  $("#psw").blur(function(){
+    $(this).css("background-color", "transparent");
+  });
+});
+$(document).ready(function(){
+  $("#psw1").focus(function(){
+    $(this).css("background-color", "#F5B7B1");
+  });
+  $("#psw1").blur(function(){
+    $(this).css("background-color", "transparent");
+  });
+});
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+
+</script> 
+</form>
+</body>
+</html>

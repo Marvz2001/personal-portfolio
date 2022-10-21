@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<title>┃ Love@Website</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="caru.css">
+<script type="text/javascript" src="main.js"></script>
+<link rel = "icon" href ="love.png"
+        type = "image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body> 
+<header style="background-color:  #FFCCCB">
+<a href="index.html"><img src="Love.png" width="340px" height="120px" style="position: relative; left: -10px"></a>
+
+</div>
+<div class="nav">
+  <div class="login">
+   <button  onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="fa fa-fw fa-user"></i>Login</button>
+ </div>
+  <a href="FAQ.html">FAQ's</a>
+  <a href="CONTACT US.html">CONTACT US </a>
+  <a href="ABOUT WEBSITE.html">ABOUT WEBSITE </a>
+  <a href="index.html">HOME</a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="index.html" id="home"></i>Home</a>
+  <a href="ABOUT WEBSITE.html" id="about"></i>About Us</a>
+  <a href="CONTACT US.html" id="contact">Contact Us</a>
+  <a href="FAQ.html" id="faq">FAQ's</a>
+</div>
+
+
+
+ 
+
+
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+      <img src="avatar3.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+    <input   id="usname" type="text"  placeholder="Enter Username" name="uname" required >
+
+      <label for="psw"><b>Password</b></label>
+      <input  id="pssw"type="password"   placeholder="Enter Password" class="fas fa-lock  name="psw" required>
+      
+        
+      <button class="submit" type="submit" >Login</button>
+      <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+
+      <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'"class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#"> Forgot password?</a></span>
+       <span class="psw1">Create Account?<a href="SignUp.html" > Sign up </a> here</span>
+       
+    </div>
+  </form>
+</div>
+  <div class="slider">
+   
+      <ul>
+        <li class="anim1">
+          <div class="quote">“Love is the cause and result of energy”.</div>
+          <div class="source">-  Greg Henry Quinn</div>
+        </li>
+        <li class="anim2">
+          <div class="quote">“When you have a dream, you’ve got to grab it and never let go.”</div>
+          <div class="source">- Carol Burnett</div>
+        </li>
+        <li class="anim3">
+          <div class="quote">“A real friend is one who walks in when the rest of the world walks out.”</div>
+          <div class="source">-  Walter Winchell</div>
+        </li>
+        <li class="anim4">
+          <div class="quote">“Family means nobody gets left behind or forgotten.”</div>
+          <div class="source">- David Ogden</div>
+        </li>
+        <li class="anim5">
+          <div class="quote">“Love yourself first and everything else falls into line.”</div>
+          <div class="source">- Lucille Ball</div>
+        </li>
+      </ul>
+  
+  </div>
+<script>
+  $(document).ready(function(){
+  $("#usname").focus(function(){
+    $(this).css("background-color", "#F5B7B1");
+  });
+  $("#usname").blur(function(){
+    $(this).css("background-color", "transparent");
+  });
+});
+$(document).ready(function(){
+  $("#pssw").focus(function(){
+    $(this).css("background-color", "#F5B7B1");
+  });
+  $("#pssw").blur(function(){
+    $(this).css("background-color", "transparent");
+  });
+});
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>    
+</header>
+
+
+<div class="front"><!--
+   <h1   class="Welcome-text"><pre>"LOVE HAS REASONS WHICH REASON 
+   CANNOT UNDERSTAND."</pre>
+    <a  class="Philo"  href="Philo.html">Blaise Pascal</a> -->
+    <a  class="starting" id="starting0" href=" Inspirational.html" > Inspirational quotes </a>
+    <a  class="starting" id="starting" href=" Experiences.html "> Experiences</a>  
+</h1>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<footer>
+<div id="footer2">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="CONTACT US.html">CONTACT  US</a></li>
+        <li><a href="ABOUT WEBSITE.html">ABOUT WEBSITE</a></li>
+        <li><a href="FAQ.html">FAQs</a></li>
+    </ul>
+ </div> 
+    
+<div id="footer3">
+    <br /> <pre style="text-align: center;">
+    <br>Copyright © 2022 All rights reserved.</pre>
+  
+ </div>
+
+</footer>
+</body>
+</html>
+ 

@@ -1,0 +1,150 @@
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffdcd1;
+}
+
+
+.nav
+ {
+  margin-top: 100px;  width: 100%; margin-right: 10px;
+}
+.nav {
+  overflow: hidden;
+  background-color: #FF8886;
+}
+
+.nav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+transition: top .6s;
+}
+
+.nav a:hover {
+  background-color: red;
+  color: white;
+}
+
+.nav a.active {
+  background-color: transparent;
+  color: white;
+}
+
+.logo {
+  width: 340px;
+  height: 120px;
+}
+
+.Love {
+    float: left;
+    position: relative;
+    margin: -20px 5px -10px 0px;
+
+
+}
+
+
+#footer2 {
+    background-color: #FF8886;
+    clear: both;
+    text-align: center;
+    color: #FFF;
+    font-size: small;
+    padding: -15px  16px;
+    position: relative;
+   bottom: 0;
+   width: 100%;
+   overflow: hidden;
+   display: block;
+   
+
+   
+}
+
+
+#footer2 ul {
+    text-align: center;
+    height: auto;
+    margin: 0vh;
+    float: none;
+
+}
+
+
+
+#footer2 ul {
+    text-align: center;
+    height:auto;
+}
+
+#footer2 ul li {
+    display:inline-table;
+    margin-left: 50px;
+}
+
+#footer2 ul li a {
+    text-decoration: none;
+    color: #FFF;
+   padding-left: 20px;
+
+   }
+
+#footer2 ul li a:hover {
+    background-color: transparent;|
+    color: white;
+}
+
+.slide {
+  animation: slide-up 0.5s;
+  line-height: 50px;
+  margin: 15% 20%;
+}
+
+
+#box {
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-bottom: 3%;
+  background-color: #ffdcd1;
+   color: black;
+   position: relative;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow:  1px 2px 8px  rgba(0,0,0,.3);
+
+
+}
+
+
+
+
+
+@keyframes slide-up {
+  from {
+    opacity: 0.5;
+    line-height: 300px;
+  }
+
+  to {
+    opacity: 1;
+    line-height:50px;
+  }
+}
+
+
+body {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg):
+    to {
+        opacity: 1;
+        transform: rotateX(0);
